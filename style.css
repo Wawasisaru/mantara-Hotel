@@ -1,58 +1,91 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px;
-     background-color:rgba(10, 1, 1, 0.7);
-    font-weight:bold;
-    color: aliceblue;
-    /* opacity:0.7; */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background-color: rgba(10, 1, 1, 0.7);
+  font-weight: bold;
+  color: aliceblue;
+  /* opacity:0.7; */
 }
 
 /* li tag is a block level element */
-ul li{
-    display:inline-block;
-    margin-left:40px;
+ul li {
+  display: inline-block;
+  margin-left: 40px;
 }
-ul{
-    width:50%
+ul {
+  width: 50%;
 }
-.btn{
-    padding:11px 14px;
-    border:none;
-    border-radius:7px;
-    font-size:1.1rem;
+.btn {
+  padding: 11px 14px;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.1rem;
 }
-#loginBtn{
-    border:1px solid lightskyblue;
-    color:lightskyblue;
-    background-color:transparent;
-    padding:10px 20px;
+#loginBtn {
+  border: 1px solid lightskyblue;
+  color: lightskyblue;
+  background-color: transparent;
+  padding: 10px 20px;
 }
-#signBtn{
-    background-color:lightskyblue;
-    color:whitesmoke;
+#signBtn {
+  background-color: lightskyblue;
+  color: whitesmoke;
 }
-#topSection{
-    background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1679230152/Hotel-booking/705555288_tldjjb.jpg");
-    min-height:100vh;
+#topSection {
+  background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1679230152/Hotel-booking/705555288_tldjjb.jpg");
+  min-height: 100vh;
 }
-.sectionText{
-    text-align:center;
-    min-height:50vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    color:whitesmoke;
-    font-weight:bolder;
+.sectionText {
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: whitesmoke;
+  font-weight: bolder;
 }
-.sectionText > h1{
-    font-size:4rem;
+.sectionText > h1 {
+  font-size: 4rem;
 }
 #hotel {
-    color:lightskyblue;
+  color: lightskyblue;
 }
+.image1 {
+  background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1679233439/Hotel-booking/tajlakepalace3-e1522907420745_lxaxga.jpg");
+  background-repeat: no-repeat;
+}
+.image2 {
+  background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1679233300/Hotel-booking/rktkn-ssOtyGE8CyE-unsplash_vyrfia.jpg");
+  background-repeat: no-repeat;
+}
+.image3 {
+  background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1679233096/Hotel-booking/photo_15185.0x380_lj2pcr.jpg");
+  background-repeat: no-repeat;
+}
+.countryImages {
+  display: flex;
+  justify-content:space-around;
+  margin-top:50px;
+}
+.countryImages > div {
+  width: 27%;
+  height: 330px;
+  border-radius:9px;
+  backdrop-filter:contrast(80%);
+  /* opacity:0.99999; */
+}
+#productSection{
+    min-height:70vh;
+    padding:6%;
+}
+#productSection > h1{
+    font-size:3rem;
+    text-align:center;
+}
+
